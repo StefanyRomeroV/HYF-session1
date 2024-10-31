@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    height: auto;
+}
+.container{
+    max-width: 800px;
+    height: 161px;
+    background:linear-gradient(90deg, rgba(253, 123, 70, 1),rgba(254, 78, 155, 1));
+    font-size: 18px;
+    color:white;
+
+    padding: 15px;
+   
+}
+.summary{
+    
+    font-weight: bold;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+}
+.total{
+    text-align: left;
+    color: white;
+     
+}
+.final-total{
+    text-align: right;
+    color: white;
+    
+}
+hr {
+    color: #f0f0f0;
+   
+}
+.payment-method{
+    text-align: center;
+}
+.payment-method method{
+    font-size: 18px;
+    color: #f0f0f0;
+    margin:5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+img{
+    width: 100px;
+    height: 50px;
+}
+
+.select {
+    border: 1px solid #ff5757;
+}
+
+.cardinfo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardinfo label {
+    display: inline-block ;
+    justify-content: center;
+    color: gray;
+   
+}
+.info input {
+    width: 50%;
+    justify-content: flex-start;
+    border: 1px solid gray;
+}
+
+.submit button{
+    background-color: #ff5757;
+    margin-top: 30px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 5px;
+    color:white;
+    border-bottom: #ff5757;
+    width: 50%;
+    border-color: #ff5757;
+
+}
+
+.help {
+    margin-top: 10px;
+    text-align: center;
+    color:rgba(254, 78, 155, 1);
+   
+   
+
+}
+
+    
+   

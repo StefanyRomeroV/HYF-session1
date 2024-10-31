@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Payment Form</title>
+</head>
+<body>
+<div class="container">
+    <h2>Order Summary</h2>
+    <div class="summary">
+    <div class="total">
+        <p>Total</p> <hr>
+        <p>Total</p>
+    </div> 
+   
+  
+    <div class="amount">  
+        <p >$333/month</p> 
+        <p >$100</p>
+    </div>
+    </div>
+ </div>
+    <div class="payment-method">
+        <h2>Payment Method</h2>
+        
+        <div class="method">
+        <button type="button"class="select"><img src="cards.png" >Credit/Debit</button>
+        <button type="button" class="select"><img src="paypal.png">Paypal</button>
+       </div>
+    </div>
+  
+ <form id="payment">
+    <div class="cardinfo">
+    <h2>Card Info</h2>
+        <div class="info">
+        <label for="cardnumber">Card Number <input id="cardnumber" type="number" inputmode="numeric" pattern="[0-9]{19}"  placeholder="1234 1234 1234 1234" required/></label>
+        <label for="expired">Expired Date <input id="expared" type="text" placeholder="MM/YY" maxlength="5"/></label>
+        <label for="security">Card Number <input id="security" type="number" pattern="[0-9]" placeholder="CVV" maxlength="3"/></label>  
+      
+    </div>
+    <div class="submit">
+        <button type="button" id="buy">Buy Now</button>
+    </div>
+    <div class="help">
+        <a link id=>Need Help?</a>
+    </div>
+    </form>
+    </div>    
+</div>
+</body>
+</html>
